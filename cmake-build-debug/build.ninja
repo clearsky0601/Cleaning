@@ -72,6 +72,37 @@ build /Users/clearsky0601/workSpace/Clearning/.runtime/Ctest: C_EXECUTABLE_LINKE
   TARGET_PDB = Ctest.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target env
+
+
+#############################################
+# Order-only phony target for env
+
+build cmake_object_order_depends_target_env: phony || CMakeFiles/env.dir
+
+build CMakeFiles/env.dir/src/env.c.o: C_COMPILER__env_unscanned_Debug /Users/clearsky0601/workSpace/Clearning/src/env.c || cmake_object_order_depends_target_env
+  DEP_FILE = CMakeFiles/env.dir/src/env.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/env.dir
+  OBJECT_FILE_DIR = CMakeFiles/env.dir/src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target env
+
+
+#############################################
+# Link the executable /Users/clearsky0601/workSpace/Clearning/.runtime/env
+
+build /Users/clearsky0601/workSpace/Clearning/.runtime/env: C_EXECUTABLE_LINKER__env_Debug CMakeFiles/env.dir/src/env.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/env.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /Users/clearsky0601/workSpace/Clearning/.runtime/env
+  TARGET_PDB = env.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target main
 
 
@@ -161,6 +192,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build Ctest: phony /Users/clearsky0601/workSpace/Clearning/.runtime/Ctest
 
+build env: phony /Users/clearsky0601/workSpace/Clearning/.runtime/env
+
 build main: phony /Users/clearsky0601/workSpace/Clearning/.runtime/main
 
 build n: phony /Users/clearsky0601/workSpace/Clearning/.runtime/n
@@ -173,7 +206,7 @@ build n: phony /Users/clearsky0601/workSpace/Clearning/.runtime/n
 #############################################
 # Folder: /Users/clearsky0601/workSpace/Clearning/cmake-build-debug
 
-build all: phony /Users/clearsky0601/workSpace/Clearning/.runtime/Ctest /Users/clearsky0601/workSpace/Clearning/.runtime/main /Users/clearsky0601/workSpace/Clearning/.runtime/n
+build all: phony /Users/clearsky0601/workSpace/Clearning/.runtime/Ctest /Users/clearsky0601/workSpace/Clearning/.runtime/env /Users/clearsky0601/workSpace/Clearning/.runtime/main /Users/clearsky0601/workSpace/Clearning/.runtime/n
 
 # =============================================================================
 # Built-in targets
