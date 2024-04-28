@@ -1,5 +1,7 @@
+/Users/clearsky0601/workSpace/Clearning/cmake-build-debug/CMakeFiles/C_fundation.dir
 /Users/clearsky0601/workSpace/Clearning/cmake-build-debug/CMakeFiles/Ctest.dir
 /Users/clearsky0601/workSpace/Clearning/cmake-build-debug/CMakeFiles/env.dir
+/Users/clearsky0601/workSpace/Clearning/cmake-build-debug/CMakeFiles/function.dir
 /Users/clearsky0601/workSpace/Clearning/cmake-build-debug/CMakeFiles/main.dir
 /Users/clearsky0601/workSpace/Clearning/cmake-build-debug/CMakeFiles/n.dir
 /Users/clearsky0601/workSpace/Clearning/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -41,6 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/clearsky0601/workSpace/Clearning/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target C_fundation
+
+
+#############################################
+# Order-only phony target for C_fundation
+
+build cmake_object_order_depends_target_C_fundation: phony || CMakeFiles/C_fundation.dir
+
+build CMakeFiles/C_fundation.dir/src/C_fundation.c.o: C_COMPILER__C_fundation_unscanned_Debug /Users/clearsky0601/workSpace/Clearning/src/C_fundation.c || cmake_object_order_depends_target_C_fundation
+  DEP_FILE = CMakeFiles/C_fundation.dir/src/C_fundation.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/C_fundation.dir
+  OBJECT_FILE_DIR = CMakeFiles/C_fundation.dir/src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target C_fundation
+
+
+#############################################
+# Link the executable /Users/clearsky0601/workSpace/Clearning/.runtime/C_fundation
+
+build /Users/clearsky0601/workSpace/Clearning/.runtime/C_fundation: C_EXECUTABLE_LINKER__C_fundation_Debug CMakeFiles/C_fundation.dir/src/C_fundation.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/C_fundation.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /Users/clearsky0601/workSpace/Clearning/.runtime/C_fundation
+  TARGET_PDB = C_fundation.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target Ctest
 
 
@@ -101,6 +132,37 @@ build /Users/clearsky0601/workSpace/Clearning/.runtime/env: C_EXECUTABLE_LINKER_
   PRE_LINK = :
   TARGET_FILE = /Users/clearsky0601/workSpace/Clearning/.runtime/env
   TARGET_PDB = env.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target function
+
+
+#############################################
+# Order-only phony target for function
+
+build cmake_object_order_depends_target_function: phony || CMakeFiles/function.dir
+
+build CMakeFiles/function.dir/src/function.c.o: C_COMPILER__function_unscanned_Debug /Users/clearsky0601/workSpace/Clearning/src/function.c || cmake_object_order_depends_target_function
+  DEP_FILE = CMakeFiles/function.dir/src/function.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/function.dir
+  OBJECT_FILE_DIR = CMakeFiles/function.dir/src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target function
+
+
+#############################################
+# Link the executable /Users/clearsky0601/workSpace/Clearning/.runtime/function
+
+build /Users/clearsky0601/workSpace/Clearning/.runtime/function: C_EXECUTABLE_LINKER__function_Debug CMakeFiles/function.dir/src/function.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/function.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /Users/clearsky0601/workSpace/Clearning/.runtime/function
+  TARGET_PDB = function.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target main
@@ -190,9 +252,13 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build C_fundation: phony /Users/clearsky0601/workSpace/Clearning/.runtime/C_fundation
+
 build Ctest: phony /Users/clearsky0601/workSpace/Clearning/.runtime/Ctest
 
 build env: phony /Users/clearsky0601/workSpace/Clearning/.runtime/env
+
+build function: phony /Users/clearsky0601/workSpace/Clearning/.runtime/function
 
 build main: phony /Users/clearsky0601/workSpace/Clearning/.runtime/main
 
@@ -206,7 +272,7 @@ build n: phony /Users/clearsky0601/workSpace/Clearning/.runtime/n
 #############################################
 # Folder: /Users/clearsky0601/workSpace/Clearning/cmake-build-debug
 
-build all: phony /Users/clearsky0601/workSpace/Clearning/.runtime/Ctest /Users/clearsky0601/workSpace/Clearning/.runtime/env /Users/clearsky0601/workSpace/Clearning/.runtime/main /Users/clearsky0601/workSpace/Clearning/.runtime/n
+build all: phony /Users/clearsky0601/workSpace/Clearning/.runtime/C_fundation /Users/clearsky0601/workSpace/Clearning/.runtime/Ctest /Users/clearsky0601/workSpace/Clearning/.runtime/env /Users/clearsky0601/workSpace/Clearning/.runtime/function /Users/clearsky0601/workSpace/Clearning/.runtime/main /Users/clearsky0601/workSpace/Clearning/.runtime/n
 
 # =============================================================================
 # Built-in targets

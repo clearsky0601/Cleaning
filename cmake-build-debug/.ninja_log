@@ -2,9 +2,11 @@
 3331	5196	1713974450897839327	/Users/clearsky0601/workSpace/Clearning/.runtime/n	6f6df90dae28c0c4
 2	3331	1713974449018438579	CMakeFiles/n.dir/src/n.c.o	c612bc0268c9c48e
 279	443	1713583640163440324	/Users/clearsky0601/workSpace/Clearning/.runtime/Ctest	ef3acbece5da3ac5
+217	1893	1714015113765793314	/Users/clearsky0601/workSpace/Clearning/.runtime/env	f789b580ed1f5ed3
 1	279	1713583639999541608	CMakeFiles/Ctest.dir/src/Ctest.c.o	823c62a8e5c8eafe
-10	78	1714015036840055485	build.ninja	89688536f8cdafd2
+10	78	1714274775221599089	build.ninja	89688536f8cdafd2
 2	184	1713975441374471847	CMakeFiles/main.dir/src/main.c.o	8e34f80f72ec852b
 184	350	1713975441536633274	/Users/clearsky0601/workSpace/Clearning/.runtime/main	7a0678db2ed859c
 1	217	1714015112089160667	CMakeFiles/env.dir/src/env.c.o	e8a6cf0f98b99884
-217	1893	1714015113765793314	/Users/clearsky0601/workSpace/Clearning/.runtime/env	f789b580ed1f5ed3
+2	202	1714274963733531933	CMakeFiles/C_fundation.dir/src/C_fundation.c.o	f2292a3ceacf36ab
+202	504	1714274964029028615	/Users/clearsky0601/workSpace/Clearning/.runtime/C_fundation	c5f5c0ac500cc110
